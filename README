@@ -1,0 +1,18 @@
+clnk - utility to create shortcuts in windows
+
+Requirements:
+  Put folder with vsvars***.bat scripts in your PATH (Visual Studio)
+  Change variable INSTALLATION_FOLDER in clnk.bat to folder where you want to install all shortcuts
+
+Usage:
+  clnk (application_path) (shortcut_name) [startup_directory]
+  Where:
+    application_path - Path to application you want create shortcurt
+    shortcut_name - Name of shortcut
+    startup_directory - Optional - Startup folder for application
+
+NOTE!
+Dont delete .clnk folder and put it in the same folder with clnk.bat
+
+Q: Why not using .lnk files?
+A: .lnk files can't be runned from console
